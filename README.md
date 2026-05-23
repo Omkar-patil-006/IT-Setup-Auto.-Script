@@ -1,4 +1,16 @@
-# 🖥️ DF IT TEAM — Windows Setup Script
+# 🖥️ IT TEAM — Windows Setup Script
+
+## 📌 About This Script
+
+This script was created to **reduce repetitive IT setup work** and
+**save time** during fresh Windows machine deployments.
+
+Instead of manually installing each application, creating users,
+and configuring folders one by one — this script does everything
+automatically in a single run.
+
+> ⚡ This script was built with the assistance of AI tools.
+> Developed & maintained by **DF IT Team**.
 
 A PowerShell automation script to quickly set up a fresh Windows machine for deployment. Built for IT teams to save time during bulk laptop/PC setup.
 
@@ -77,7 +89,7 @@ Set-ExecutionPolicy Bypass -Scope Process
 .\DF-IT-Setup.ps1
 ```
 
-Or simply **right-click** `DF-IT-Setup.ps1` → **Run with PowerShell**
+Or simply **right-click** `IT-Setup.ps1` → **Run with PowerShell**
 
 ---
 
