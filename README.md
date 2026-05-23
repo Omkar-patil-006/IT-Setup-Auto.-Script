@@ -1,4 +1,4 @@
-# 🖥️ IT TEAM — Windows Setup Script
+# 🖥️ Windows Setup Script
 
 ## 📌 About This Script
 
@@ -9,8 +9,8 @@ Instead of manually installing each application, creating users,
 and configuring folders one by one — this script does everything
 automatically in a single run.
 
-> ⚡ This script was built with the assistance of AI tools.
-> Developed & maintained by **IT Team**.
+>💡 AI was used as a coding assistant to help build this script faster.
+> Designed & developed by **Me**.
 
 A PowerShell automation script to quickly set up a fresh Windows machine for deployment. Built for IT teams to save time during bulk laptop/PC setup.
 
@@ -62,8 +62,8 @@ A PowerShell automation script to quickly set up a fresh Windows machine for dep
 
 ## ⚙️ Requirements
 
-- Windows 10 / Windows 11
-- PowerShell 5.1 or later
+- Windows 11  
+- PowerShell or later
 - Run as **Administrator**
 - Internet connection (for auto-downloaded apps)
 - D: drive must exist (for folder redirection)
@@ -74,7 +74,7 @@ A PowerShell automation script to quickly set up a fresh Windows machine for dep
 
 ### Step 1 — Download or clone this repo
 ```
-git clone https://github.com/YOUR-USERNAME/it-setup.git
+git clone https://github.com/omkar-patil-006/it-setup.git
 ```
 
 ### Step 2 — Add your manual installers
@@ -109,15 +109,6 @@ AVG Business Antivirus requires a **paid subscription**.
 ## 📋 Summary Report
 
 At the end of the script, a full summary report is shown:
-
-$logoPath = Join-Path $PSScriptRoot ""
-
-if (Test-Path $logoPath) {
-    Start-Process $logoPath
-} else {
-    Write-Host "  [info] Logo image not found at: $logoPath" -ForegroundColor DarkGray
-}
-
 
 <p align="center">
   <img src="script output .png" width="600"/>
