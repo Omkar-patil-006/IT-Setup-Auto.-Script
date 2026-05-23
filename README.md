@@ -98,35 +98,14 @@ AVG Business Antivirus requires a **paid subscription**.
 
 At the end of the script, a full summary report is shown:
 
-```
-  ############################################################
-  #          DF IT TEAM - SETUP COMPLETE REPORT             #
-  ############################################################
+# --- Open Logo/Image after Summary ---
+$logoPath = Join-Path $PSScriptRoot "logo.png"
 
-  Computer  : DF-D-PC01
-  User      : John
-  Date      : 23-05-2026  10:30 AM
-
-   #   TASK                              STATUS    NOTE
-   1   Create User: John                 [OK]      Administrator account created
-   2   Install: Google Chrome            [OK]      Installed successfully
-   3   Install: Mozilla Firefox          [OK]      Installed successfully
-   4   Install: TeamViewer               [OK]      Installed successfully
-   5   Install: Zoom                     [OK]      Installed successfully
-   6   Install: WinRAR                   [OK]      Installed successfully
-   7   Install: AnyDesk                  [OK]      Installed successfully
-   8   Install: AVG Business             [OK]      Installed successfully
-   9   Install: Adobe Reader             [SKIP]    Already installed
-  10   Install: Nudi                     [OK]      Installed successfully
-  11   Windows Update                    [OK]      Already up to date
-
-  +-----------------------+
-  | Total Tasks  : 11    |
-  | Completed    : 10    |
-  | Failed       : 0     |
-  | Skipped      : 1     |
-  +-----------------------+
-```
+if (Test-Path $logoPath) {
+    Start-Process $logoPath
+} else {
+    Write-Host "  [info] Logo image not found at: $logoPath" -ForegroundColor DarkGray
+}
 
 ---
 
