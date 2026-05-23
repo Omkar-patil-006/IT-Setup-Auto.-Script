@@ -98,14 +98,6 @@ AVG Business Antivirus requires a **paid subscription**.
 
 At the end of the script, a full summary report is shown:
 
-# --- Open Logo/Image after Summary ---
-$logoPath = Join-Path $PSScriptRoot "logo.png"
-
-if (Test-Path $logoPath) {
-    Start-Process $logoPath
-} else {
-    Write-Host "  [info] Logo image not found at: $logoPath" -ForegroundColor DarkGray
-}
 
 ---
 
