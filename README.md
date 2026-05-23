@@ -10,7 +10,7 @@ and configuring folders one by one — this script does everything
 automatically in a single run.
 
 > ⚡ This script was built with the assistance of AI tools.
-> Developed & maintained by **DF IT Team**.
+> Developed & maintained by **IT Team**.
 
 A PowerShell automation script to quickly set up a fresh Windows machine for deployment. Built for IT teams to save time during bulk laptop/PC setup.
 
@@ -74,7 +74,7 @@ A PowerShell automation script to quickly set up a fresh Windows machine for dep
 
 ### Step 1 — Download or clone this repo
 ```
-git clone https://github.com/YOUR-USERNAME/df-it-setup.git
+git clone https://github.com/YOUR-USERNAME/it-setup.git
 ```
 
 ### Step 2 — Add your manual installers
