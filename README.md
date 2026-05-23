@@ -48,8 +48,8 @@ A PowerShell automation script to quickly set up a fresh Windows machine for dep
 ## 📁 Folder Structure
 
 ```
-📦 IT-Setup\
- ┣ 📜 DF-IT-Setup.ps1        <- Main script
+📦 IT-Setup-Auto.-Script\
+ ┣ 📜 Windows-Setup.ps1        <- Main script
  ┗ 📁 Installers\
     ┣ avg_business_setup.exe      <- Your paid AVG Business installer (rename to this)
     ┣ AcroRdrDC2100120145_en_US.exe  <- Adobe Acrobat Reader offline installer
@@ -63,7 +63,7 @@ A PowerShell automation script to quickly set up a fresh Windows machine for dep
 ## ⚙️ Requirements
 
 - Windows 11  
-- PowerShell or later
+- PowerShell 
 - Run as **Administrator**
 - Internet connection (for auto-downloaded apps)
 - D: drive must exist (for folder redirection)
@@ -86,10 +86,10 @@ Place these files inside the `Installers\` folder:
 ### Step 3 — Run the script
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process
-.\DF-IT-Setup.ps1
+.\Windows-Setup.ps1
 ```
 
-Or simply **right-click** `IT-Setup.ps1` → **Run with PowerShell**
+Or simply **right-click** `Windows-Setup.ps1` → **Run with PowerShell**
 
 ---
 
@@ -125,7 +125,7 @@ At the end of the script, a full summary report is shown:
 
 ## 👨‍💻 Author
 
-**DF IT Team**  
+**Omkar patil**  
 Internal Windows Setup Automation Tool
 
 ---
