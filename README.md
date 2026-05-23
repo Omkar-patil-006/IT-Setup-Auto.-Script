@@ -1,5 +1,3 @@
-# IT-Setup-Auto.-Script
-
 # 🖥️ DF IT TEAM — Windows Setup Script
 
 A PowerShell automation script to quickly set up a fresh Windows machine for deployment. Built for IT teams to save time during bulk laptop/PC setup.
